@@ -41,7 +41,8 @@ PhoneNumber:
 The service is developed using Flask and Flask-restful.  SQLAlchemy was used to use the database with ORM.
 The unit tests are performed using pytest framework, and its available under `./unit_tests/test_api.py`.
 
-The documentation for this service is generated using Sphinx. This is available under `./docs/build/index.html`
+The documentation for this service is generated using Sphinx. This is available under `./docs/build/html/index.html`.
+This includes the documentation of all API endpoints.
 
-The application was containerized using Docker (in a Linux VM) and has been deployed in Heroku. This is 
-available under: http://perseus-user-service.herokuapp.com/
+The application was containerized using Docker (in a Linux VM) and has been deployed in Heroku. 
+This is available under: http://perseus-user-service.herokuapp.com/
